@@ -59,7 +59,7 @@ public class Bird implements Comparable<Bird> {
     }
     
     // base class compareTo (override)
-
+    //compares this sample to another sample
     @Override
     public int compareTo(Bird other) {
         int result = Integer.compare(this.sampleNum, other.sampleNum);
